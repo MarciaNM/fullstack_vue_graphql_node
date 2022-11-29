@@ -1,0 +1,95 @@
+<!-- eslint-disable vue/max-attributes-per-line -->
+<!-- eslint-disable vue/singleline-html-element-content-newline -->
+<!-- eslint-disable vue/html-self-closing -->
+<!-- eslint-disable vue/valid-template-root -->
+<template>
+  <div>
+    <div id="Slogan" class="Text-center">
+      <h1>NameGator</h1>
+      <br>
+      <h6 class="Text-secondary">Gerador de nomes utilizando Vue.js, Graphql e Node.js</h6>
+    </div>
+    <div id="main">
+      <div class="container">
+        <div class="row">
+          <div class="col-md">
+            <h5>Prefixos <span class="badge badge-info">0</span></h5>
+            <div class="card">
+              <div class="card-body">
+                <ul class="list-group">
+                  <li class="list-group-item">
+                    A
+                  </li>
+                  <li class="list-group-item">
+                    B
+                  </li>
+                  <li class="list-group-item">
+                    C
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <h5>Sufixos <span class="badge badge-info">0</span></h5>
+            <div class="card">
+              <div class="card-body">
+                <ul class="list-group">
+                  <li class="list-group-item">
+                    A
+                  </li>
+                  <li class="list-group-item">
+                    B
+                  </li>
+                  <li class="list-group-item">
+                    C
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
+
+<Script>
+import "bootstrap/dist/css/bootstrap.css";
+import "font-awesome/css/font-awesome.css";
+
+export default {
+	name: "App"
+};
+
+
+
+</Script>
+
+
+<style>
+<!-- eslint-disable vue/singleline-html-element-content-newline -->
+<!-- eslint-disable vue/max-attributes-per-line -->
+<!-- eslint-disable vue/html-end-tags -->
+
+#Slogan{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: blue;
+    text-align: center;
+
+}
+
+#main {
+    background-color: #F1F1F1;
+    padding-top: 30px;
+    padding-bottom:30px;
+}
+</style>
+---------------------------
+
+<!-- eslint-disable vue/singleline-html-element-content-newline -->
+<!-- eslint-disable vue/max-attributes-per-line -->
+<!-- eslint-disable vue/html-end-tags -->
+
